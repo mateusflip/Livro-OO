@@ -5,10 +5,7 @@ public class Livro {
     private String isbn;
     Autor autor;
 
-
-
     public Livro(Autor autor){
-        System.out.println("Estamoas criando um livro que precisa ter autor");
         this.autor = autor;
     }
 
@@ -33,6 +30,7 @@ public class Livro {
             return false;
 
         }else{
+            System.out.println("Aplicando descono no Livro");
             this.valor -= this.valor * porcentagem;
             return true;
         }

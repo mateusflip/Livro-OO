@@ -1,17 +1,28 @@
 public class RegrasDeDesconto {
     public static void main(String[] args) {
-        System.out.println("só um teste");
-    }
-       /* Livro livro = new Livro();
 
-        livro.setValor(59.90);
+        Autor lunga = new Autor();
+        lunga.setNome("Lunga");
 
-        System.out.println("Valor Atual:" + livro.getValor());
+        Livro bacurau = new Livro(lunga);
+        bacurau.setValor(59.90);
 
-        if (!livro.aplicaDesconto(0.1)){
-            System.out.println("Desconto não pode ser maior que 30%");
+
+
+        if (!bacurau.aplicaDesconto(0.3)){
+            System.out.println("Desconto no livro não pode ser maior do que 30%");
         }else{
-            System.out.println("Valor com desconto" + livro.getValor());
+            System.out.println("Valor do Livro com desconto" + bacurau.getValor());
         }
-    }*/
+
+        Ebook ebook = new Ebook(lunga);
+        ebook.setValor(29.90);
+
+        if (!ebook.aplicaDesconto(0.15)){
+            System.out.println("Desconto maior que 15%");
+        }else{
+            System.out.println("Valor do Ebook com desconto" + ebook.getValor());
+        }
+
+    }
 }
