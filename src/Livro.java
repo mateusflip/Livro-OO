@@ -1,4 +1,4 @@
-public class Livro {
+public abstract class Livro {
     private String nome;
     private String descricao;
     private double valor;
@@ -8,6 +8,9 @@ public class Livro {
     public Livro(Autor autor){
         this.autor = autor;
     }
+    
+    public abstract boolean aplicaDesconto(double porcentagem);
+
 
     public void mostraInfos(){
         System.out.println();
@@ -24,18 +27,7 @@ public class Livro {
         }
     }
 
-    public boolean aplicaDesconto(double porcentagem){
 
-        if (porcentagem > 0.3){
-            return false;
-
-        }else{
-            System.out.println("Aplicando descono no Livro");
-            this.valor -= this.valor * porcentagem;
-            return true;
-        }
-
-    }
     boolean temAutor(){
 
         return this.autor != null; //Se o autor for diferente de null é a condição é verdadeira

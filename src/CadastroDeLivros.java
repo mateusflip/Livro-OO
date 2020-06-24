@@ -10,7 +10,7 @@ public class CadastroDeLivros {
         autor.setCpf("56874156548");
 
 
-        Livro livro = new Livro(autor); //Passando um autor como um parametro devido ao nosso construtor
+        Livro livro = new LivroFisico(autor); //Passando um autor como um parametro devido ao nosso construtor
 
         livro.setNome("Cálculo1");
         livro.setDescricao("Um livro sobe cálculo 1 sobre integrais");
@@ -29,7 +29,7 @@ public class CadastroDeLivros {
         outroAutor.setNome("Raíssa Martins");
         outroAutor.setEmail("raissa.martins@gmail.com");
 
-        Livro outroLivro = new Livro(outroAutor); //devido ao construtor devemos passar um parametro autor para o novo livro que está sendo criado
+        Livro outroLivro = new LivroFisico(outroAutor); //devido ao construtor devemos passar um parametro autor para o novo livro que está sendo criado
         outroLivro.setNome("Cálculo2");
         outroLivro.setDescricao("Livro de cálculo 2 bem mais dificil que o primeiro, se prepare");
         outroLivro.setIsbn("2315168321");
