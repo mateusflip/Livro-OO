@@ -4,17 +4,17 @@ public class RegrasDeDesconto {
         Autor lunga = new Autor();
         lunga.setNome("Lunga");
 
-        Livro bacurau = new Livro(lunga);
+        Livro bacurau = new LivroFisico(lunga);
         bacurau.setValor(59.90);
 
 
 
-        if (!bacurau.aplicaDesconto(0.3)){
+       /* if (!bacurau.aplicaDesconto(0.3)){
             System.out.println("Desconto no livro não pode ser maior do que 30%");
         }else{
             System.out.println("Valor do Livro com desconto" + bacurau.getValor());
         }
-
+*/
         Ebook ebook = new Ebook(lunga);
         ebook.setValor(29.90);
 

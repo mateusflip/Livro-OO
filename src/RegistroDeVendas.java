@@ -13,6 +13,10 @@ public class RegistroDeVendas {
         ebook.setNome("Banco de Dados - Ebook");
         ebook.setValor(29.90);
 
+        if (fisico.aplicaDescontoDe10PorCento()){
+            System.out.println("O valor do desconto agora é " + fisico.getValor());
+        }
+
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
         carrinho.adiciona(fisico);
         carrinho.adiciona(ebook);

@@ -1,4 +1,4 @@
-public class Ebook extends Livro{
+public class Ebook extends Livro implements Promocional{
     private String watermark;
 
     public Ebook(Autor autor){
@@ -13,7 +13,7 @@ public class Ebook extends Livro{
 
         }else{
             System.out.println("Aplicando desconto no Ebook");
-            return super.aplicaDesconto(porcentagem);
+            return aplicaDesconto(porcentagem);
 
         }
 
