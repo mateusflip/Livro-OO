@@ -10,3 +10,4 @@ Os tópicos abordados até agora nos estudos são:
 3) Encapsulamento
 4) Herança e Polimorfismo
 5) Classe Abstrata
+6) Interface
