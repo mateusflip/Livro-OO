@@ -1,7 +1,7 @@
-# Livro-OO
-Projeto desenvolvido durante a leitura do Livro "Desbravando Java e Orientação a Objetos" da Editora Casa do Código. 
+# br.com.casadocodigo.livraria.produtos.Livro-OO
+Projeto desenvolvido durante a leitura do br.com.casadocodigo.livraria.produtos.Livro "Desbravando Java e Orientação a Objetos" da br.com.casadocodigo.livraria.Editora Casa do Código. 
 
-Todo o código aqui presente foi desenvolvido para fixar os conceitos abordados durante a leitura do livro técnico "Desbravando Java e Orientação a Objetos - Um Guia para o Iniciante da Linguagem" da Editora casa do Código. 
+Todo o código aqui presente foi desenvolvido para fixar os conceitos abordados durante a leitura do livro técnico "Desbravando Java e Orientação a Objetos - Um Guia para o Iniciante da Linguagem" da br.com.casadocodigo.livraria.Editora casa do Código. 
 
 Os tópicos abordados até agora nos estudos são:
 
