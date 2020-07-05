@@ -39,7 +39,7 @@ public class CadastroDeLivros {
 
         Livro outroLivro = new LivroFisico(outroAutor); //devido ao construtor devemos passar um parametro autor para o novo livro que está sendo criado
         outroLivro.setNome("Cálculo2");
-        outroLivro.setDescricao("br.com.casadocodigo.livraria.produtos.Livro de cálculo 2 bem mais dificil que o primeiro, se prepare");
+        outroLivro.setDescricao("Livro de cálculo 2 bem mais dificil que o primeiro, se prepare");
         outroLivro.setIsbn("2315168321");
         outroLivro.setValor(60);
         outroLivro.autor = outroAutor;

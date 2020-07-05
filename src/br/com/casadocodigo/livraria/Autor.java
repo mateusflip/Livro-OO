@@ -6,8 +6,10 @@ public class Autor {
     private String email;
     private String cpf;
 
+
+
     public void infosAutor(){
-        System.out.println("As informações do br.com.casadocodigo.livraria.Autor são:");
+        System.out.println("As informações do Autor são:");
         System.out.println(nome);
         System.out.println(email);
         System.out.println(cpf);
