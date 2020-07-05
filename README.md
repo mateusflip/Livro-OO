@@ -5,10 +5,11 @@ Todo o código aqui presente foi desenvolvido para fixar os conceitos abordados 
 
 Os tópicos abordados até agora nos estudos são:
 
-1) Variaǘeis e Tipos Primitivos
+1) Variáves e Tipos Primitivos
 2) Orientação a Objetos (Conceitos de abstração, Classes, Métodos)
 3) Encapsulamento
 4) Herança e Polimorfismo
 5) Classe Abstrata
 6) Interface
 7) Pacotes
+8) Arrays e Exceptions 
