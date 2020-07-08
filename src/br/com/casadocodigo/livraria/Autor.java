@@ -6,7 +6,11 @@ public class Autor {
     private String email;
     private String cpf;
 
-
+    @Override
+    public boolean equals(Object obj){
+        Autor outro = (Autor) obj;
+        return this.nome.equals(outro.nome);
+    }
 
     public void infosAutor(){
         System.out.println("As informações do Autor são:");

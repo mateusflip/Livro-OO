@@ -11,6 +11,10 @@ public class Ebook extends Livro implements Promocional {
         super(autor); //Delega a função do construtor para a superclasse
 
     }
+    @Override
+    public String toString(){
+        return "Eu sou um Ebook";
+    }
 
     @Override
     public boolean aplicaDesconto(double porcentagem){

@@ -32,19 +32,13 @@ public class RegistroDeVendas {
 
         Produto[] produtos = carrinho.getProdutos();
 
-        for (int i = 0; i <= produtos.length; i++) {
-            try {
-                Produto produto = produtos[i];
-                if (produto != null) {
-                    System.out.println(produto.getValor());
+        for (Produto produto : produtos) {
+
+            System.out.println(produto.getValor());
                 }
 
-            } catch (Exception e) { // Quero que executa esse código só quando uma exception genérica acontecer
-                System.out.println("Deu exception no indice " + i);
-                e.printStackTrace();
             }
-        }
-        System.out.println("Fui executado!");
-    }
+
+
 
 }
