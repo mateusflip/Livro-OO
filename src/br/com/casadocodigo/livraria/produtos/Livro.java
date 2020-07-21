@@ -42,6 +42,17 @@ public abstract class Livro implements Produto {
         return this.autor != null; //Se o autor for diferente de null é a condição é verdadeira
     }
 
+    @Override
+    public int compareTo(Produto outro){
+        if (this.getValor() < outro.getValor()){
+            return -1;
+        }
+        if (this.getValor() > outro.getValor()){
+            return 1;
+        }
+        return 0;
+    }
+
 
     //Metodos Getters and Setter
     public void setValor(double valor){

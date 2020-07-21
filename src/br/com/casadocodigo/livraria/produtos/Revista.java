@@ -19,6 +19,11 @@ public class Revista implements Produto, Promocional {
             return true;
         }
     }
+
+    @Override
+    public boolean aplicaDescontoDe10PorCento() {
+        return false;
+    }
     //Getters and Setter
 
     public String getNome() {
@@ -51,5 +56,10 @@ public class Revista implements Produto, Promocional {
 
     public void setEditora(Editora editora) {
         this.editora = editora;
+    }
+
+    @Override
+    public int compareTo(Produto produto) {
+        return 0;
     }
 }

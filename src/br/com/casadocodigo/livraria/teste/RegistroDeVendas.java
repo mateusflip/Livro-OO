@@ -5,6 +5,8 @@ import br.com.casadocodigo.livraria.produtos.Ebook;
 import br.com.casadocodigo.livraria.produtos.LivroFisico;
 import br.com.casadocodigo.livraria.produtos.Produto;
 
+import java.util.List;
+
 public class RegistroDeVendas {
 
     private double total;
@@ -30,11 +32,11 @@ public class RegistroDeVendas {
 
         System.out.println("Total da compra " + carrinho.getTotal());
 
-        Produto[] produtos = carrinho.getProdutos();
+        List<Produto> produtos = carrinho.getProdutos();
 
         for (Produto produto : produtos) {
 
-            System.out.println(produto.getValor());
+            System.out.println(produto);
                 }
 
             }
